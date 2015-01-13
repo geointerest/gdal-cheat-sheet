@@ -160,6 +160,10 @@ Average two rasters:
 Add two rasters:
 
 	gdal_calc.py -A input1.tif -B input2.tif --outfile=output.tif --calc="A+B"
+	
+Multiply raster by a constant:
+	
+	gdal_calc.py -A input1.tif --outfile=output.tif --calc="A*1000"
 
 etc.
 
